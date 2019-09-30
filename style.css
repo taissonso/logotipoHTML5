@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.cabecalho {
+    background: pink;
+    height: 300px;
+    width: 100vw; 
+}
+
+/*Para centraliza e deixar absoluto usa a tecnica de left 50% - margin-left = -(menos) metade da largura*/
+.moldura {
+    background: white;
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 50%;
+    margin-top: -125px;
+    margin-left: -125px; 
+    border: 1px solid black;
+}
+
+.trapezio {
+    height: 0; 
+    width: 150px; 
+    border-top: 175px solid orangered; 
+    border-left: 15px solid transparent; 
+    border-right: 15px solid transparent; 
+   
+    
+    margin-top: 25px;
+    margin-left: 35px;
+    
+}
+
+.triangulo {
+    width: 0; 
+    height: 0; 
+    border-left: 75px solid transparent; 
+    border-right:75px solid transparent; 
+    border-top: 25px solid orangered;
+    
+    margin-left: 50px;
+}
+
+.parte1{
+    position: absolute;
+    background: white;
+    width: 102px;
+    height: 20px;
+    transform: skewX(-8deg);
+    margin-top: -135px;
+    margin-left: 30px;
+}
+
+.parte2{
+    position: absolute;
+    background: white;
+    width: 20px;
+    height: 55px;
+    transform: skewX(8deg);
+    margin-top: -135px;
+    margin-left: 25px;
+}
+
+.parte3 {
+    position: absolute;
+    background: white;
+    width: 95px;
+    height: 20px;
+    transform: skewX(-8deg);
+    margin-top: -100px;
+    margin-left: 31px;
+}
+
+.parte4{
+    position: absolute;
+    background: white;
+    width: 20px;
+    height: 65px;
+    transform: skewX(-8deg);
+    margin-top: -100px;
+    margin-left: 104px;
+}
+
+.parte5{
+    position: absolute;
+    background: white;
+    width: 45px;
+    height: 20px;
+    transform: rotate(-26deg);
+    margin-top: -44px;
+    margin-left: 72px;
+}
+
+.parte6{
+    position: absolute;
+    background: white;
+    width: 46px;
+    height: 20px;
+    transform: rotate(25deg);
+    margin-top:  -44px;
+    margin-left: 39px;
+}
+
+.parte7{
+    position: absolute;
+    background: white;
+    width: 20px;
+    height: 35px;
+    transform: skew(10deg, 0deg);
+    margin-top: -70px;
+    margin-left: 34px;
+}
