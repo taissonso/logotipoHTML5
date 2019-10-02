@@ -8,6 +8,28 @@ body {
     width: 100vw;
     align-items: center;
     justify-content: center;
+    display: flex;
+}
+
+.cabecalho {
+    background: pink;
+    height: 250px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    display: none;
+    position: relative;
+    background: white;
+}
+
+div.texto p {
+    font-size: 6em;
+    margin-top: 15%;
+    padding: 0;
+    float:left;
 }
 
 /*Para centraliza e deixar absoluto usa a tecnica de left 50%; margin-left: = -(menos) metade da largura
@@ -22,7 +44,6 @@ O mesmo serve para o top*/
     left: 50%;
     margin-top: -125px;
     margin-left: -125px; 
-    border: 1px solid black;
 }
 
 .trapezio {
